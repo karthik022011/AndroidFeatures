@@ -1,4 +1,4 @@
-package com.kartheek.datepicker
+package com.kartheek.dialogs
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -10,8 +10,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.kartheek.datepicker.fromwidget.MyDatePicker
-import com.kartheek.datepicker.ui.theme.AndroidFeaturesTheme
+import com.kartheek.dialogs.ui.theme.AndroidFeaturesTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -23,10 +22,25 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    MyDatePicker()
+                    Greeting("Android")
                 }
             }
         }
     }
 }
 
+@Composable
+fun Greeting(name: String, modifier: Modifier = Modifier) {
+    Text(
+        text = "Hello $name!",
+        modifier = modifier
+    )
+}
+
+@Preview(showBackground = true)
+@Composable
+fun GreetingPreview() {
+    AndroidFeaturesTheme {
+        Greeting("Android")
+    }
+}

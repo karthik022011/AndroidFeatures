@@ -12,7 +12,12 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/bottomnavigationview" />
             <option value="$PROJECT_DIR$/datepicker" />
+            <option value="$PROJECT_DIR$/dialogs" />
+            <option value="$PROJECT_DIR$/formfillup" />
+            <option value="$PROJECT_DIR$/pagination" />
+            <option value="$PROJECT_DIR$/search" />
           </set>
         </option>
       </GradleProjectSettings>

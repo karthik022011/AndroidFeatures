@@ -16,3 +16,8 @@ dependencyResolutionManagement {
 rootProject.name = "AndroidFeatures"
 include(":app")
 include(":datepicker")
+include(":bottomnavigationview")
+include(":formfillup")
+include(":pagination")
+include(":search")
+include(":dialogs")
