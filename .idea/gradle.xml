@@ -14,11 +14,15 @@
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/bottomappbar" />
             <option value="$PROJECT_DIR$/bottomnavigationview" />
+            <option value="$PROJECT_DIR$/datastore" />
             <option value="$PROJECT_DIR$/datepicker" />
             <option value="$PROJECT_DIR$/dialogs" />
             <option value="$PROJECT_DIR$/formfillup" />
+            <option value="$PROJECT_DIR$/googlemaps" />
+            <option value="$PROJECT_DIR$/notifictions" />
             <option value="$PROJECT_DIR$/pagination" />
             <option value="$PROJECT_DIR$/search" />
+            <option value="$PROJECT_DIR$/workmanager" />
           </set>
         </option>
       </GradleProjectSettings>

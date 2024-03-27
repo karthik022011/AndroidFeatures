@@ -10,6 +10,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import com.kartheek.bottomnavigationview.material3.BottomNavigationBar
 import com.kartheek.bottomnavigationview.ui.theme.AndroidFeaturesTheme
 
 class MainActivity : ComponentActivity() {
@@ -18,29 +19,10 @@ class MainActivity : ComponentActivity() {
         setContent {
             AndroidFeaturesTheme {
                 // A surface container using the 'background' color from the theme
-                Surface(
-                    modifier = Modifier.fillMaxSize(),
-                    color = MaterialTheme.colorScheme.background
-                ) {
-                    Greeting("Android")
+                Surface(modifier = Modifier.fillMaxSize(), color = MaterialTheme.colorScheme.background) {
+                    BottomNavigationBar()
                 }
             }
         }
-    }
-}
-
-@Composable
-fun Greeting(name: String, modifier: Modifier = Modifier) {
-    Text(
-        text = "Hello $name!",
-        modifier = modifier
-    )
-}
-
-@Preview(showBackground = true)
-@Composable
-fun GreetingPreview() {
-    AndroidFeaturesTheme {
-        Greeting("Android")
     }
 }
